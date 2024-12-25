@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+**/venv*/
+**/.venv*/
+**/env*/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+
+# Data folder (ignore all contents)
+# data/*
+
+# Logs
+# **/logs*/
+*.log
+
+# Database files
+*.db
+*.rdb
+
+# Environment Variables
+.env
+
+# Unit test / coverage reports
+coverage/
+*.cover
+.hypothesis/
+.cache/
+.nox/
+pytest_cache/
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows system files
+Thumbs.db
+Desktop.ini
+
+# IDE-specific files
+.idea/
+*.iml
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.orig
+
+# Large binary files
+*.pickle
+*.pkl
+*.zip
+*.tar.gz
